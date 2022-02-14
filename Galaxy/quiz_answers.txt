@@ -1,12 +1,12 @@
-SET !ERRORIGNORE YES\
-VERSION BUILD=1011 RECORDER=CR\
-TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:10,000,000\
-TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:Users<SP>in<SP>the<SP>waiting*\
-TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:Credential<SP>data<SP>for<SP>Web3*\
-TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:BTC,<SP>ETH,<SP>USDC,<SP>USDT,<SP>ALGO,<SP>SOL*\
-TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:$1.50<SP>per<SP>token*\
-TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:The<SP>user's<SP>purchase<SP>may<SP>be<SP>canceled<SP>and*\
-TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:CoinList.co\
-TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:The<SP>user's<SP>account<SP>will<SP>be<SP>terminated<SP>and*\
-TAG POS=1 TYPE=A ATTR=TXT:Continue\
-TAB T=\{\{!LOOP\}\}}
+SET !ERRORIGNORE YES
+VERSION BUILD=1011 RECORDER=CR
+TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:10,000,000
+TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:Users<SP>in<SP>the<SP>waiting*
+TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:Credential<SP>data<SP>for<SP>Web3*
+TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:BTC,<SP>ETH,<SP>USDC,<SP>USDT,<SP>ALGO,<SP>SOL*
+TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:$1.50<SP>per<SP>token*
+TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:The<SP>user's<SP>purchase<SP>may<SP>be<SP>canceled<SP>and*
+TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:CoinList.co
+TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:The<SP>user's<SP>account<SP>will<SP>be<SP>terminated<SP>and*
+TAG POS=1 TYPE=A ATTR=TXT:Continue
+TAB T={{!LOOP}}
