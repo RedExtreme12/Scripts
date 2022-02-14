@@ -1,0 +1,21 @@
+{\rtf1\ansi\ansicpg1251\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 AndaleMono;}
+{\colortbl;\red255\green255\blue255;\red171\green173\blue176;\red35\green37\blue41;}
+{\*\expandedcolortbl;;\cssrgb\c72549\c73333\c74510;\cssrgb\c18431\c19216\c21176;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 SET !ERRORIGNORE YES\
+VERSION BUILD=1011 RECORDER=CR\
+TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:10,000,000\
+TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:Users<SP>in<SP>the<SP>waiting*\
+TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:Credential<SP>data<SP>for<SP>Web3*\
+TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:BTC,<SP>ETH,<SP>USDC,<SP>USDT,<SP>ALGO,<SP>SOL*\
+TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:$1.50<SP>per<SP>token*\
+TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:The<SP>user's<SP>purchase<SP>may<SP>be<SP>canceled<SP>and*\
+TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:CoinList.co\
+TAG POS=1 TYPE=LABEL FORM=ACTION:/galaxy-token-sale*/participants/*/submit_quiz ATTR=TXT:The<SP>user's<SP>account<SP>will<SP>be<SP>terminated<SP>and*\
+TAG POS=1 TYPE=A ATTR=TXT:Continue\
+TAB T=\{\{!LOOP\}\}}
