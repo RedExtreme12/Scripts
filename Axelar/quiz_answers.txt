@@ -1,0 +1,13 @@
+SET !ERRORIGNORE YES
+VERSION BUILD=1011 RECORDER=CR
+TAG POS=1 TYPE=LABEL FORM=ACTION:/axelar-token-sale/participants/*/submit_quiz ATTR=TXT:66,667
+TAG POS=1 TYPE=LABEL FORM=ACTION:/axelar-token-sale/participants/*/submit_quiz ATTR=TXT:Users<SP>in<SP>the<SP>waiting<SP>room<SP>will<SP>be<SP>given*
+TAG POS=1 TYPE=LABEL FORM=ACTION:/axelar-token-sale/participants/*/submit_quiz ATTR=TXT:Tokens<SP>release<SP>on<SP>/<SP>around<SP>May<SP>11,<SP>2022*
+TAG POS=1 TYPE=LABEL FORM=ACTION:/axelar-token-sale/participants/*/submit_quiz ATTR=TXT:BTC,<SP>ETH,<SP>USDC,<SP>USDT,<SP>SOL,<SP>ALGO
+TAG POS=1 TYPE=LABEL FORM=ACTION:/axelar-token-sale/participants/*/submit_quiz ATTR=TXT:$1.00<SP>per<SP>token,<SP>$750<SP>limit.
+TAG POS=1 TYPE=LABEL FORM=ACTION:/axelar-token-sale/participants/*/submit_quiz ATTR=TXT:The<SP>user's<SP>purchase<SP>may<SP>be<SP>cancelled<SP>and*
+TAG POS=1 TYPE=LABEL FORM=ACTION:/axelar-token-sale/participants/*/submit_quiz ATTR=TXT:CoinList.co
+TAG POS=1 TYPE=LABEL FORM=ACTION:/axelar-token-sale/participants/*/submit_quiz ATTR=TXT:coinlistofficialchannel
+TAG POS=1 TYPE=LABEL FORM=ACTION:/axelar-token-sale/participants/*/submit_quiz ATTR=TXT:The<SP>user's<SP>account<SP>will<SP>be<SP>terminated<SP>and*
+TAG POS=1 TYPE=A ATTR=TXT:Continue
+TAB T={{!LOOP}}
