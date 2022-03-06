@@ -1,5 +1,5 @@
-VERSION BUILD=1011 RECORDER=CR\
-TAG POS=1 TYPE=SELECT FORM=ID:new_forms_offerings_participants_residence ATTR=ID:forms_offerings_participants_residence_residence_country CONTENT=%BY\
-TAG POS=1 TYPE=INPUT:CHECKBOX FORM=ID:new_forms_offerings_participants_residence ATTR=ID:forms_offerings_participants_residence_residence_signature CONTENT=YES\
-TAG POS=1 TYPE=A ATTR=TXT:Continue\
-TAB T=\{\{!LOOP\}\}}
+VERSION BUILD=1011 RECORDER=CR
+TAG POS=1 TYPE=SELECT FORM=ID:new_forms_offerings_participants_residence ATTR=ID:forms_offerings_participants_residence_residence_country CONTENT=%BY
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=ID:new_forms_offerings_participants_residence ATTR=ID:forms_offerings_participants_residence_residence_signature CONTENT=YES
+TAG POS=1 TYPE=A ATTR=TXT:Continue
+TAB T={{!LOOP}}
