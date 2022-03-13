@@ -1,0 +1,11 @@
+SET !ERRORIGNORE YES
+VERSION BUILD=1011 RECORDER=CR
+TAG POS=1 TYPE=LABEL FORM=ACTION:/tribal-option-*/participants/*/submit_quiz ATTR=TXT:64,066,667
+TAG POS=1 TYPE=LABEL FORM=ACTION:/tribal-option-*/participants/*/submit_quiz ATTR=TXT:Users<SP>in<SP>the<SP>waiting<SP>room<SP>for<SP>the<SP>sale*
+TAG POS=1 TYPE=LABEL FORM=ACTION:/tribal-option-*/participants/*/submit_quiz ATTR=TXT:BTC,<SP>ETH,<SP>USDC,<SP>USDT,<SP>ALGO,<SP>SOL
+TAG POS=1 TYPE=LABEL FORM=ACTION:/tribal-option-*/participants/*/submit_quiz ATTR=TXT:Option<SP>1:<SP>$0.55<SP>per<SP>token,<SP>$500<SP>limit.*
+TAG POS=1 TYPE=LABEL FORM=ACTION:/tribal-option-*/participants/*/submit_quiz ATTR=TXT:The<SP>user's<SP>purchase<SP>may<SP>be<SP>canceled<SP>and*
+TAG POS=1 TYPE=LABEL FORM=ACTION:/tribal-option-*/participants/*/submit_quiz ATTR=TXT:CoinList.co
+TAG POS=1 TYPE=LABEL FORM=ACTION:/tribal-option-*/participants/*/submit_quiz ATTR=TXT:The<SP>user's<SP>account<SP>will<SP>be<SP>terminated<SP>and*
+TAG POS=1 TYPE=A ATTR=TXT:Continue
+TAB T={{!LOOP}}
